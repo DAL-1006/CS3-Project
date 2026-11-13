@@ -13,8 +13,8 @@ Summary: The program can display information about a book in a library. This ser
 # Components:
 Class descriptions, attributes, and methods:
 Our program has a library, book, aisle, and student class.
-The library class represents a general storage where all the book classes and aisle classes exist. It has a "name" and "list of books" attribute.
-It has a "book search" method.
+The library class represents a general storage where all the book classes and aisle classes exist. It has a "name", "list of books", and "list of aisles" attribute.
+It has a "book search" and "aisle search" method.
 The book class is the class that contains the attributes and information the user is looking for. The book classes exist in the library. It has a "name", "copies", "available copies", and "borrowed copies" attribute.
 The aisle class is a storage smaller than the library class that book classes exist in. The aisle classes also exist in the library. It has an "id" and "list of books" attribute. It has a "book search" method.
 The student class is completely independent of other classes and can "borrow" book classes. They can change the attributes of a book class. It has a "name" attribute. It has a "borrow" method.
@@ -38,6 +38,7 @@ Class interactions:
 Our program targets users that do not have information on a book in a library that they want to borrow. Our program allows them to find these books, if its in the library, if they can borrow it, and where they can find it.
 
 # Class Diagram:
+<img width="720" height="410" alt="image" src="https://github.com/user-attachments/assets/0a83a645-3f48-407d-ab7c-06648da02bff" />
 
 # Goals & Objectives:
 Our project will be able to function as a library database that can search for the data of a book in the library when requested.
